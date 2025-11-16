@@ -14,7 +14,7 @@ public class FetchExcel {
 	private static XSSFWorkbook workbook;
 	private static Sheet worksheet;
 	
-	public static void setExcelFile(String filePath, String sheetName, int row, int column) throws IOException {
+	public static void setExcelFile(String filePath, String sheetName) throws IOException {
 		FileInputStream file=new FileInputStream(filePath);
 		workbook= new XSSFWorkbook(file);
 		worksheet=workbook.getSheet(sheetName);
