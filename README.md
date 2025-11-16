@@ -125,7 +125,7 @@ Right click → Run 'testng.xml'
 In testng.xml, pass browser parameter:
 
 <parameter name="browser" value="firefox" />
-## 🧪 6. Automated Test Coverage
+## 🧪** 6. Automated Test Coverage **
 Login Tests
 Valid login
 Invalid username/password
