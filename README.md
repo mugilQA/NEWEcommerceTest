@@ -100,12 +100,13 @@ Separates UI locators and actions from test logic.
 The `config.properties` file stores:
 
 ```
-baseUrl=https://www.saucedemo.com/
-browser=chrome
+url=https://www.saucedemo.com/
 username=standard_user
 password=secret_sauce
-implicitWait=10
-explicitWait=15
+inputdata=C:\\newSelenium\\NewEcommerceAutomation\\src\\test\\java\\testdata\\InputSheet.xlsx
+sheetName=userdata
+userdetail=C:\\newSelenium\\NewEcommerceAutomation\\src\\test\\java\\testdata\\userlogin.xlsx
+usersheetName=login
 ```
 
 Modify these values based on your environment.
