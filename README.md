@@ -140,19 +140,21 @@ Verify successful order completion
 
 ## 🛠 7. Build & Dependencies (pom.xml)
 
-Includes:
-Selenium Java
-TestNG
-WebDriverManager
-Apache POI (optional for Excel data)
-Extent Reports (optional)
+** Includes: **
+* Selenium Java
+* TestNG
+* WebDriverManager
+* Apache POI (optional for Excel data)
+* Extent Reports (optional)
+* Listener (Optional for reporting)
+* Retry Analyzer for falky tests
+  
 
 ## 📝 8. Enhancements (Optional)
 
-CI/CD integration with Jenkins
-Allure/Extent advanced reporting
-Retry Analyzer for flaky tests
-Dockerized Selenium Grid
+* CI/CD integration with Jenkins
+* Extent advanced reporting
+* Dockerized Selenium Grid
 
 ## 🧩 9. Sample Test Flow
 
