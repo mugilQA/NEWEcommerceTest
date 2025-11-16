@@ -1,0 +1,14 @@
+2025-11-06 17:35:18 INFO  BaseTest:66 - Browser launched successfully
+2025-11-06 17:35:19 INFO  BaseTest:19 - LoginApplication completed
+2025-11-06 17:35:19 INFO  BaseTest:75 - ========== Test Completed ==========
+2025-11-06 17:35:45 INFO  BaseTest:66 - Browser launched successfully
+2025-11-06 17:35:47 INFO  BaseTest:19 - LoginApplication completed
+2025-11-06 17:35:47 INFO  BaseTest:75 - ========== Test Completed ==========
+2025-11-06 17:35:49 INFO  BaseTest:66 - Browser launched successfully
+2025-11-06 17:35:50 INFO  BaseTest:19 - ProductApplication completed
+2025-11-06 17:35:50 INFO  BaseTest:75 - ========== Test Completed ==========
+2025-11-06 17:35:51 INFO  BaseTest:66 - Browser launched successfully
+2025-11-06 17:35:53 INFO  BaseTest:20 - CartApplication completed
+2025-11-06 17:35:53 INFO  BaseTest:75 - ========== Test Completed ==========
+2025-11-06 17:35:54 INFO  BaseTest:66 - Browser launched successfully
+2025-11-06 17:35:56 INFO  BaseTest:75 - ========== Test Completed ==========

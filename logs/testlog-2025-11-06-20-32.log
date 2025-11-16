@@ -1,0 +1,11 @@
+2025-11-06 20:32:00 INFO  BaseTest:29 - Invalid login test completed with soft assertions.
+2025-11-06 20:32:00 INFO  BaseTest:78 - ========== Test Completed ==========
+2025-11-06 20:32:01 INFO  BaseTest:68 - Browser launched successfully
+2025-11-06 20:32:02 INFO  BaseTest:19 - ProductApplication completed
+2025-11-06 20:32:02 INFO  BaseTest:78 - ========== Test Completed ==========
+2025-11-06 20:32:03 INFO  BaseTest:68 - Browser launched successfully
+2025-11-06 20:32:04 INFO  BaseTest:20 - CartApplication completed
+2025-11-06 20:32:05 INFO  BaseTest:78 - ========== Test Completed ==========
+2025-11-06 20:32:06 INFO  BaseTest:68 - Browser launched successfully
+2025-11-06 20:32:07 INFO  BaseTest:43 - CheckoutApplication completed
+2025-11-06 20:32:07 INFO  BaseTest:78 - ========== Test Completed ==========

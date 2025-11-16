@@ -1,0 +1,9 @@
+2025-11-06 19:04:30 INFO  BaseTest:67 - Browser launched successfully
+2025-11-06 19:04:31 INFO  BaseTest:21 - LoginApplication completed
+2025-11-06 19:04:31 INFO  BaseTest:77 - ========== Test Completed ==========
+2025-11-06 19:04:33 INFO  BaseTest:67 - Browser launched successfully
+2025-11-06 19:04:34 INFO  BaseTest:29 - Invalid login test completed with soft assertions.
+2025-11-06 19:04:34 INFO  BaseTest:77 - ========== Test Completed ==========
+2025-11-06 19:04:35 INFO  BaseTest:67 - Browser launched successfully
+2025-11-06 19:04:36 INFO  BaseTest:29 - Invalid login test completed with soft assertions.
+2025-11-06 19:04:36 INFO  BaseTest:77 - ========== Test Completed ==========
