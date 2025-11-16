@@ -11,6 +11,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
 import pagesource.Login;
@@ -33,12 +34,11 @@ public class BaseTest {
 
 	String browsername;
 
-	public WebDriver intializeDriver() {
+	public WebDriver intializeDriver(String browsername) {
 
 		
 
 		configred = new ConfigReader();
-		browsername = configred.getProperty("browser");
 
 		if (browsername.equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
@@ -62,8 +62,9 @@ public class BaseTest {
 	}
 
 	@BeforeMethod
-	public void setup() {
-		driver = intializeDriver();
+	@Parameters("browser")
+	public void setup(String browserName) {
+		driver = intializeDriver(browserName);
 		Resuseuti = new ResuseUtility(driver);
 		   log.info("Browser launched successfully");
 		logobj = new Login(driver);
