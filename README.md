@@ -115,3 +115,57 @@ Modify these values based on your environment.
 ## ▶️ **5. How to Run the Tests**
 
 ### **Run using Maven:
+* Run using Maven:
+mvn clean test
+* Run via TestNG XML:
+Right click → Run 'testng.xml'
+* Run cross‑browser:
+
+In testng.xml, pass browser parameter:
+
+<parameter name="browser" value="firefox" />
+## 🧪 6. Automated Test Coverage
+Login Tests
+Valid login
+Invalid username/password
+Product Tests
+Validate product list visibility
+Add item to cart
+Validate cart badge number
+Checkout Tests
+Enter customer info
+Validate price and tax
+Verify successful order completion
+
+## 🛠 7. Build & Dependencies (pom.xml)
+
+Includes:
+Selenium Java
+TestNG
+WebDriverManager
+Apache POI (optional for Excel data)
+Extent Reports (optional)
+
+## 📝 8. Enhancements (Optional)
+
+CI/CD integration with Jenkins
+Allure/Extent advanced reporting
+Retry Analyzer for flaky tests
+Dockerized Selenium Grid
+
+## 🧩 9. Sample Test Flow
+
+Launch browser
+Navigate to SauceDemo
+Login with provided credentials
+Validate product listing
+Add product to cart
+Checkout and place order
+Validate confirmation message
+
+
+## 🤝 10. Contributions
+Feel free to fork the project, add improvements, and create a pull request.
+
+## 📜 License
+This project is created for educational and testing purposes.
