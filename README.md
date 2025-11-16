@@ -156,13 +156,13 @@ Dockerized Selenium Grid
 
 ## 🧩 9. Sample Test Flow
 
-Launch browser
-Navigate to SauceDemo
-Login with provided credentials
-Validate product listing
-Add product to cart
-Checkout and place order
-Validate confirmation message
+* Launch browser
+* Navigate to SauceDemo
+* Login with provided credentials
+* Validate product listing
+* Add product to cart
+* Checkout and place order
+* Validate confirmation message
 
 
 ## 🤝 10. Contributions
